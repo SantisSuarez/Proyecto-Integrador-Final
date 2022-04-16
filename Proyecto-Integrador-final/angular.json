@@ -17,7 +17,7 @@
       "sourceRoot": "src",
       "prefix": "app",
       "architect": {
-        "build": {
+        "build":{
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
             "outputPath": "dist/proyecto-integrador-final",
@@ -29,10 +29,10 @@
               "src/favicon.ico",
               "src/assets"
             ],
-            "styles": [
+            "styles": ["Proyecto-Integrador-final/node_modules/bootstrap/dist/css/bootstrap.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": ["Proyecto-Integrador-final/node_modules/bootstrap/dist/js/bootstrap.js"]
           },
           "configurations": {
             "production": {

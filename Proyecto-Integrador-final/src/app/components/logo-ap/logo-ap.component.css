@@ -6,6 +6,9 @@
 .redes{
     margin-right: 1em;
 }
+.redes img{
+    margin: 0.2em;
+}
 #logoAP{
     width: 150px;
 }
